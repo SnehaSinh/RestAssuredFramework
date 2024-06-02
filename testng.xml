@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured Suite">
+    <listeners>
+        <listener class-name="Reporting.ReportSetup"/>
+    </listeners>
+    <test name="Api Test" verbose="10" >
+<classes>
+    <class name="UserDetails.UserClass">
+        <methods>
+            <include name="createUser"/>
+            <include name="registerUser"/>
+            <include name="getUserList"/>
+            <include name="createUserAndVerifyResponse"/>
+            <include name="registerUserAndVerifyResponse"/>
+
+        </methods>
+    </class>
+
+</classes>
+
+
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

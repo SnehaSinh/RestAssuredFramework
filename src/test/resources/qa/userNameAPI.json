@@ -1,0 +1,5 @@
+{
+  "endpoint.create.user": "https://reqres.in/api/users",
+  "endpoint.register.user": "https://reqres.in/api/register",
+  "endpoint.list.user": "https://reqres.in/api/users"
+}
